@@ -27,7 +27,7 @@ class Index extends FormRequest
             'page' => 'required|integer|min:1',
             'rowsPerPage' => 'required|integer|min:5',
             'search' => 'sometimes|array',
-            'sortBy' => 'sometimes|nullable|in:id,title,author,genre,isbn,published_on,publisher',
+            'sortBy' => 'sometimes|nullable|in:id,customer_id,payed',
             'sortType' => 'sometimes|nullable|in:asc,desc'
         ];
     }
