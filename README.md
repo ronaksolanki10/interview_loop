@@ -1,6 +1,3 @@
-
-# LOOP New Media GmbH Assessment
-
 A project is about to build a Backend for the simple mini webshop (Ecommerce)
 
 ## Author
